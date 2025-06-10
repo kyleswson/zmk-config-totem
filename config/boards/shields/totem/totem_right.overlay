@@ -19,3 +19,12 @@
         , <&xiao_d 4 GPIO_ACTIVE_HIGH>
         ;
 };
+
+/ {
+    encoder1: encoder1 {
+        compatible = "zmk,rotary-encoder";
+        a-gpios = <&xiao_d 7 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;  // D7
+        b-gpios = <&xiao_d 6 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;  // D6
+        resolution = <4>;
+    };
+};
