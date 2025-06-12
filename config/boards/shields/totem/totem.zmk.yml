@@ -1,11 +1,11 @@
 file_format: "1"
-id: totemrollin
-name: TOTEMROLLIN
+id: totem
+name: TOTEM
 type: shield
 url: https://github.com/GEIGEIGEIST/TOTEM
 requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
-  - totemrollin_left
-  - totemrollin_right
+  - totem_left
+  - totem_right
