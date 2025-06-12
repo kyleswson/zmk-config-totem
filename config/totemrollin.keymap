@@ -182,6 +182,8 @@
 &kp Z               &kp X       &kp C        &kp V            &kp B         &kp N        &kp M        &semicolon   &colon      &kp FSLH
 &lt 1 LANG_HANGEUL  &lt 4 ESC   &trans       &lt 3 BACKSPACE  &lt 2 DELETE  &lt 2 ENTER  &lt 3 SPACE  &kp BSPC     &kp B       &lt 1 BACKSLASH
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         nav_layer {
@@ -206,6 +208,7 @@
 &none    &trans        &kp PG_DN  &kp PG_UP      &kp END       &msc SCRL_DOWN       &none               &none         &none          &none
 &trans   &none         &trans     &trans         &trans        &trans               &trans              &trans        &none          &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         num_layer {
@@ -230,6 +233,7 @@
 &kp N0     &kp N1  &kp N2  &kp N3  &kp DOT    &kp DOT        &kp N1  &kp N2  &kp N3  &kp N0
 &kp PLUS   &trans  &trans  &trans  &trans     &trans         &trans  &trans  &trans  &kp PLUS
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         sim_layer {
@@ -254,6 +258,7 @@
 &none          &none         &none          &none         &none          &none          &none         &kp BSLH      &kp PIPE      &kp LSHFT
 &kp LS(TILDE)  &kp C_VOL_DN  &none          &none         &none          &none          &none         &none         &kp C_VOL_UP  &kp UNDERSCORE
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
@@ -278,6 +283,7 @@
 &kp F10       &kp F1  &kp F2  &kp F3  &bt BT_PRV  &bt BT_PRV  &kp F1  &kp F2  &kp F3  &kp F10
 &out OUT_TOG  &trans  &trans  &trans  &trans      &trans      &trans  &trans  &trans  &sys_reset
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
