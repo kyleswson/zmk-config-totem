@@ -180,7 +180,7 @@
 &kp Q               &kp W       &kp E        &kp R            &kp T         &kp Y        &kp U        &kp I        &kp O       &kp P
 &hm LGUI A          &hm LALT S  &hm LCTRL D  &hm LSHFT F      &kp G         &kp H        &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMI
 &kp Z               &kp X       &kp C        &kp V            &kp B         &kp N        &kp M        &semicolon   &colon      &kp FSLH
-&lt 1 LANG_HANGEUL  &lt 4 N     &trans       &lt 3 BACKSPACE  &lt 2 DELETE  &lt 2 ENTER  &lt 3 SPACE  &kp BSPC     &kp B       &lt 1 BACKSLASH
+&lt 1 LANG_HANGEUL  &lt 4 ESC   &trans       &lt 3 BACKSPACE  &lt 2 DELETE  &lt 2 ENTER  &lt 3 SPACE  &kp BSPC     &kp B       &lt 1 BACKSLASH
             >;
         };
 
